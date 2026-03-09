@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=White&fontSize=60&fontColor=fff&animation=twinkling&fontAlignY=32" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Batuhan&fontSize=60&fontColor=fff&animation=twinkling&fontAlignY=32" width="100%"/>
 
 <br/>
 
@@ -76,11 +76,10 @@
 
 | | Project | Contribution |
 |:--|:--------|:------------|
-| :gear: | **[craft-engine](https://github.com/Xiao-MoMi/craft-engine)** | Entity culling, adaptive sampling |
-| :lock: | **[EasyCommandBlocker](https://github.com/Ajneb97/EasyCommandBlocker)** | ProtocolLib to PacketEvents |
 | :rocket: | **[zEssentials](https://github.com/Maxlego08/zEssentials)** | Permission lookup optimization |
 | :globe_with_meridians: | **[ViaVersion](https://github.com/ViaVersion/ViaVersion)** | Null safety improvements |
 | :art: | **[Canvas](https://github.com/CraftCanvasMC/Canvas)** | Random tick optimization |
+| :earth_asia: | **[craft-engine](https://github.com/Xiao-MoMi/craft-engine)** | Turkish localization |
 
 </td>
 </tr>
@@ -122,7 +121,7 @@
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=WhiteProject1&custom_title=White's%20Contribution%20Graph&theme=github-compact&hide_border=true&area=true&bg_color=0d1117&color=c9d1d9&line=58a6ff&point=58a6ff" width="95%"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=WhiteProject1&custom_title=Batuhan's%20Contribution%20Graph&theme=github-compact&hide_border=true&area=true&bg_color=0d1117&color=c9d1d9&line=58a6ff&point=58a6ff" width="95%"/>
 
 </div>
 
