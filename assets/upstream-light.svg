@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="168" viewBox="0 0 1200 168" role="img" aria-label="Merged upstream contributions">
+<rect width="1200" height="168" fill="#ffffff"/>
+<g transform="translate(0,14)">
+<rect x="0" y="0" width="384" height="140" rx="8" fill="#f6f8fa" stroke="#d8dee4" stroke-width="1"/>
+<rect x="0" y="12" width="3" height="116" rx="1.5" fill="#bc4c00"><animate attributeName="opacity" values="0.35;1;0.35" dur="6.0s" begin="0.0s" repeatCount="indefinite"/></rect>
+<text x="24" y="40" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="19" font-weight="700" fill="#1f2328">Pumpkin</text>
+<text x="360" y="40" text-anchor="end" font-family="ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,monospace" font-size="12" fill="#818b98">Rust</text>
+<rect x="24" y="62" width="57" height="26" rx="13" fill="#ffffff" stroke="#bc4c00" stroke-opacity="0.45" stroke-width="1"/>
+<text x="52.5" y="79" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,monospace" font-size="12" fill="#bc4c00">#1794</text>
+<rect x="89" y="62" width="57" height="26" rx="13" fill="#ffffff" stroke="#bc4c00" stroke-opacity="0.45" stroke-width="1"/>
+<text x="117.5" y="79" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,monospace" font-size="12" fill="#bc4c00">#1912</text>
+<text x="24" y="118" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="#59636e">pathfinding optimisation · translation constants</text>
+</g>
+<g transform="translate(408,14)">
+<rect x="0" y="0" width="384" height="140" rx="8" fill="#f6f8fa" stroke="#d8dee4" stroke-width="1"/>
+<rect x="0" y="12" width="3" height="116" rx="1.5" fill="#0969da"><animate attributeName="opacity" values="0.35;1;0.35" dur="6.0s" begin="2.0s" repeatCount="indefinite"/></rect>
+<text x="24" y="40" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="19" font-weight="700" fill="#1f2328">zEssentials</text>
+<text x="360" y="40" text-anchor="end" font-family="ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,monospace" font-size="12" fill="#818b98">Java</text>
+<rect x="24" y="62" width="50" height="26" rx="13" fill="#ffffff" stroke="#0969da" stroke-opacity="0.45" stroke-width="1"/>
+<text x="49.0" y="79" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,monospace" font-size="12" fill="#0969da">#212</text>
+<rect x="82" y="62" width="50" height="26" rx="13" fill="#ffffff" stroke="#0969da" stroke-opacity="0.45" stroke-width="1"/>
+<text x="107.0" y="79" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,monospace" font-size="12" fill="#0969da">#230</text>
+<text x="24" y="118" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="#59636e">permission lookup · 70+ bug fixes, DeathMessage</text>
+</g>
+<g transform="translate(816,14)">
+<rect x="0" y="0" width="384" height="140" rx="8" fill="#f6f8fa" stroke="#d8dee4" stroke-width="1"/>
+<rect x="0" y="12" width="3" height="116" rx="1.5" fill="#8250df"><animate attributeName="opacity" values="0.35;1;0.35" dur="6.0s" begin="4.0s" repeatCount="indefinite"/></rect>
+<text x="24" y="40" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="19" font-weight="700" fill="#1f2328">craft-engine</text>
+<text x="360" y="40" text-anchor="end" font-family="ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,monospace" font-size="12" fill="#818b98">Java</text>
+<rect x="24" y="62" width="50" height="26" rx="13" fill="#ffffff" stroke="#8250df" stroke-opacity="0.45" stroke-width="1"/>
+<text x="49.0" y="79" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,monospace" font-size="12" fill="#8250df">#146</text>
+<rect x="82" y="62" width="50" height="26" rx="13" fill="#ffffff" stroke="#8250df" stroke-opacity="0.45" stroke-width="1"/>
+<text x="107.0" y="79" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,monospace" font-size="12" fill="#8250df">#155</text>
+<rect x="140" y="62" width="50" height="26" rx="13" fill="#ffffff" stroke="#8250df" stroke-opacity="0.45" stroke-width="1"/>
+<text x="165.0" y="79" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,monospace" font-size="12" fill="#8250df">#222</text>
+<text x="24" y="118" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="#59636e">localisation</text>
+</g>
+</svg>
