@@ -1,8 +1,12 @@
-## Batuhan
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg">
+  <img src="assets/banner-dark.svg" alt="Batuhan — Minecraft server infrastructure" width="100%">
+</picture>
 
-Minecraft server infrastructure developer. I build and operate the server side
-of a network sized for 800–5,000 concurrent players — Java, region-threaded
-server software (Folia / Canvas), and performance profiling.
+I build and operate the server side of a Minecraft network sized for
+800–5,000 concurrent players — Java, region-threaded server software
+(Folia / Canvas), and performance profiling.
 
 ---
 
