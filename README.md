@@ -10,13 +10,6 @@ I build and operate the server side of a Minecraft network sized for
 
 ---
 
-### Infrastructure I operate
-
-|  |  |
-|:--|:--|
-| **Scale** | 800–5,000 concurrent players |
-| **Server software** | Folia / Canvas / Leaf — region threading |
-
 ### Engineering
 
 **Region-threaded server software.**
