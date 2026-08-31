@@ -20,6 +20,12 @@ main-thread assumptions, moving teleportation, entity access and scheduled
 work onto region-aware APIs, and maintaining patched builds where upstream
 has not caught up.
 
+**Cross-server state.**
+Player data, punishments and economy stay consistent across the network's
+servers — Redis for messaging and shared state, MySQL / MariaDB / PostgreSQL
+for durable storage, with the storage layer kept independent of Bukkit so it
+can be tested and swapped on its own.
+
 **Protocol layer.**
 Packet-level work with PacketEvents: anti-cheat instrumentation, custom entity
 and effect handling, and keeping plugins functional across protocol changes
@@ -51,7 +57,7 @@ dependency rather than in the network's own patch set.
 
 ### Tech
 
-Java · Rust · Kotlin · Gradle · Maven · MySQL · Linux
+<img src="assets/tech.svg" alt="Java, Rust, Kotlin, Gradle, Maven, MySQL, MariaDB, PostgreSQL, Redis, Linux">
 
 ### Contact
 
