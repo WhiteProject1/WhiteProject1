@@ -32,7 +32,11 @@ dependency rather than in the network's own patch set.
 
 ### Upstream contributions
 
-Merged pull requests:
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/upstream-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/upstream-light.svg">
+  <img src="assets/upstream-dark.svg" alt="Merged upstream contributions" width="100%">
+</picture>
 
 **[Pumpkin](https://github.com/Pumpkin-MC/Pumpkin)** · Rust
 - [#1794](https://github.com/Pumpkin-MC/Pumpkin/pull/1794) — pathfinding optimisation
