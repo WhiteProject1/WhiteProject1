@@ -17,22 +17,25 @@ I build and operate the server side of a Minecraft network sized for
 | **Scale** | 800–5,000 concurrent players |
 | **Server software** | Folia / Canvas / Leaf — region threading |
 
-### Engineering work
+### Engineering
 
-**Region-threading compatibility.**
-On Folia and Canvas, `player.teleport()` throws `UnsupportedOperationException:
-Must use teleportAsync while in region threading`. I migrated the network's
-plugins onto `teleportAsync()` and region-aware schedulers, and upstreamed the
-same fix to zEssentials.
+**Region-threaded server software.**
+Folia and Canvas replace the single main thread with per-region scheduling,
+which invalidates the assumptions most Bukkit plugins are written against.
+I run the network's plugin stack on that model — auditing plugins for
+main-thread assumptions, moving teleportation, entity access and scheduled
+work onto region-aware APIs, and maintaining patched builds where upstream
+has not caught up.
 
-**Packet layer migration.**
-Ported an anti-cheat plugin from ProtocolLib to PacketEvents, resolving the GC
-pressure and off-thread access problems the port surfaced.
+**Protocol layer.**
+Packet-level work with PacketEvents: anti-cheat instrumentation, custom entity
+and effect handling, and keeping plugins functional across protocol changes
+between Minecraft versions.
 
-**Allocation and GC tuning.**
-Cutting avoidable allocation on hot paths — skipping the regex for messages
-without hex colours, paginating log queries, and sending effects as packets
-rather than through the potion API.
+**Performance.**
+Profiling with Spark to locate allocation pressure and lock contention on hot
+paths, then removing it. Fixes are upstreamed when they belong in a shared
+dependency rather than in the network's own patch set.
 
 ### Upstream contributions
 
