@@ -10,6 +10,10 @@ I build and operate the server side of a Minecraft network sized for
 
 ---
 
+<table>
+<tr>
+<td width="58%" valign="top">
+
 ### Engineering
 
 **Region-threaded server software.**
@@ -36,12 +40,29 @@ Profiling with Spark to locate allocation pressure and lock contention on hot
 paths, then removing it. Fixes are upstreamed when they belong in a shared
 dependency rather than in the network's own patch set.
 
+</td>
+<td width="42%" valign="top">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/glance-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/glance-light.svg">
+  <img src="assets/glance-dark.svg" alt="At a glance" width="100%">
+</picture>
+
+### Contact
+
+iletisim@simple-project.net
+
+</td>
+</tr>
+</table>
+
 ### Upstream contributions
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/upstream-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/upstream-light.svg">
-  <img src="assets/upstream-dark.svg" alt="Merged upstream contributions" width="100%">
+  <img src="assets/upstream-dark.svg" alt="Merged upstream pull requests, April 2025 to March 2026" width="100%">
 </picture>
 
 **[Pumpkin](https://github.com/Pumpkin-MC/Pumpkin)** · Rust
@@ -58,7 +79,3 @@ dependency rather than in the network's own patch set.
 ### Tech
 
 <img src="assets/tech.svg" alt="Java, Rust, Kotlin, Gradle, Maven, MySQL, MariaDB, PostgreSQL, Redis, Linux">
-
-### Contact
-
-iletisim@simple-project.net
